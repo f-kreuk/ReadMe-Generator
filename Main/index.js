@@ -1,12 +1,11 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require('inquirer');
-const fs = require('fs');
+const { writeFile } = require('fs').promises;
 
 // TODO: Create an array of questions for user input
-
-inquirer
-  .prompt([
+const promptUser = () => {
+  return inquirer.prompt([
     {
       type: 'input',
       name: 'Title',
@@ -42,9 +41,8 @@ inquirer
       name: 'Tests',
       message: 'Provide the test instructions for this project:',
     },
-  ])
- .then((answers) => {
-   const ReadMePageContent = generateReadMe(answers);
+  ]);
+};
 
  const generateReadMe = ({ Title, Description, Installation, License, Usage, Contributing, Tests }) =>
  `# ${Title}
@@ -107,13 +105,14 @@ inquirer
 
 
 // TODO: Create a function to write README file
-fs.writeFile('README.md', ReadMePageContent, (err) =>
-err ? console.log(err) : console.log('Successfully created ReadMe!')
-);
-});
-
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
+    promptUser()
+
+    .then((answers) => writeFile('README.md', generateReadMe(answers)))
+    .then(() => console.log('Successfully wrote to README.md'))
+    .catch((err) => console.error(err));
+};
 
 // Function call to initialize app
 init();
