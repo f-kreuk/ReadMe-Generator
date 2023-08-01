@@ -79,10 +79,112 @@ const promptUser = () => {
   ]);
 };
 
+// Below is the array of objects that stores information about each license selection
+
+const licenses = [
+  {
+    "license": "Apache license 2.0",
+    "badge": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    "website": "https://opensource.org/licenses/Apache-2.0",
+  },
+  {
+    "license": "Artistic license 2.0",
+    "badge": "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
+    "website": "https://opensource.org/licenses/Artistic-2.0",
+  },
+  {
+    "license": "Boost Software License 1.0",
+    "badge": "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)",
+    "website": "https://www.boost.org/LICENSE_1_0.txt",
+  },
+  {
+    "license": "BSD 2-clause 'Simplified' license",
+    "badge": "[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)",
+    "website": "https://opensource.org/licenses/BSD-2-Clause",
+  },
+  {
+    "license": "BSD 3-clause 'New' or 'Revised' license",
+    "badge": "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+    "website": "https://opensource.org/licenses/BSD-3-Clause",
+  },
+  {
+    "license": "Creative Commons license family",
+    "badge": "[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)",
+    "website": "http://creativecommons.org/publicdomain/zero/1.0/",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+  {
+    "license": "",
+    "badge": "",
+    "website": "",
+  },
+
+]
+
+
  const generateReadMe = ({ Title, Description, Installation, License, Usage, Contributing, Tests, GitHub, Email }) =>
  `# ${Title}
 
- // badge placeholder ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+ BADGE-PLACEHOLDER
 
  
  ## Description
@@ -115,9 +217,13 @@ const promptUser = () => {
  
  ## License
  
- ${License}
+
  
- Information about the specific license selected [shields.io](https://shields.io/).
+ Licensed under ${License} (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at: 
+ 
+    WEBSITE-PLACEHOLDER 
+ 
+ Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
  
  
  ## Credits
@@ -145,7 +251,7 @@ const promptUser = () => {
 
  To reach me with additional questions, please contact me at the following email address: ${Email}.
 
- To visit my GitHub profile, simply navigate using the following link: [GitHub](https://https://github.com/${GitHub}).`;
+ To visit my GitHub profile, simply navigate using the following link: [GitHub](https://github.com/${GitHub}).`;
 
 
 // TODO: Create a function to write README file
