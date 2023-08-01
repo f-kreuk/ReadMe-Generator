@@ -22,10 +22,34 @@ const promptUser = () => {
       message: 'Provide step by step installation instructions for this project:',
     },
     {
-        type: 'input',
-        name: 'License',
-        message: 'Provide the license type for this project:',
-      },
+      type: 'list',
+      name: 'License',
+      message: 'Provide the license type for this project:',
+      choices: [
+                "Apache license 2.0", 
+                "Artistic license 2.0", 
+                "Boost Software License 1.0",
+                "BSD 2-clause 'Simplified' license",
+                "BSD 3-clause 'New' or 'Revised' license",
+                "Creative Commons license family",
+                "Creative Commons Zero v1.0 Universal",
+                "Creative Commons Attribution 4.0",
+                "Creative Commons Attribution Share Alike 4.0",
+                "Do What The F*ck You Want To Public License",
+                "Eclipse Public License 1.0",
+                "GNU Affero General Public License v3.0",
+                "GNU General Public License v2.0",
+                "GNU General Public License v3.0",
+                "GNU Lesser General Public License v3.0",
+                "ISC",
+                "MIT",
+                "Mozilla Public License 2.0",
+                "SIL Open Font License 1.1",
+                "The Unlicense",
+                "zLib License",
+                "Other"
+        ]
+    },
     {
       type: 'input',
       name: 'Usage',
@@ -100,6 +124,8 @@ const promptUser = () => {
  The following documentation page was utilized to understand the various license types in GitHub: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
  
  The following tutorial was utilized as a starting place for a professional ReadMe: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+ The following GitHub site was utilized for the license badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
  
  
  ## Contributing
