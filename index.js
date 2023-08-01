@@ -41,10 +41,20 @@ const promptUser = () => {
       name: 'Tests',
       message: 'Provide the test instructions for this project:',
     },
+    {
+      type: 'input',
+      name: 'GitHub',
+      message: 'What is your GitHub username?',
+    },
+    {
+      type: 'input',
+      name: 'Email',
+      message: 'What is your email address?',
+    },
   ]);
 };
 
- const generateReadMe = ({ Title, Description, Installation, License, Usage, Contributing, Tests }) =>
+ const generateReadMe = ({ Title, Description, Installation, License, Usage, Contributing, Tests, GitHub, Email }) =>
  `# ${Title}
 
  // badge placeholder ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
@@ -101,7 +111,13 @@ const promptUser = () => {
  
  ## Tests
  
- ${Tests}`;
+ ${Tests}
+ 
+ 
+ ## Questions
+
+ ${GitHub}
+ ${Email}`;
 
 
 // TODO: Create a function to write README file
