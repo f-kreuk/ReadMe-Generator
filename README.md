@@ -1,11 +1,11 @@
-# ReadMe Generator
+# Sample Title
 
  // badge placeholder ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
  
  ## Description
  
- This is a description for the project.
+ Description
  
  ## Table of Contents
  
@@ -19,11 +19,11 @@
  
  ## Installation
  
- undefined
+ Installation instructions
  
  ## Usage
  
- To use it, simply do X, Y, and Z.
+ Usage info
  
  // placeholder for video
  
@@ -33,7 +33,7 @@
  
  ## License
  
- MIT.
+ MIT
  
  Information about the specific license selected [shields.io](https://shields.io/).
  
@@ -47,11 +47,17 @@
  
  ## Contributing
  
- To contribute, do the following...
+ guidelines are here
  
  If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
  
  
  ## Tests
  
- To test, complete the following...
+ To test, simple clone this repository locally. Run NPM Install Inquirer@8.2.4 and execute node index.js in your terminal
+ 
+ 
+ ## Questions
+
+ f-kreuk
+ fkreuk@email.com
