@@ -1,11 +1,11 @@
-# 1234
+# ReadMe Generator
 
  // badge placeholder ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
  
  ## Description
  
- 124156
+ This is a description for the project.
  
  ## Table of Contents
  
@@ -23,7 +23,7 @@
  
  ## Usage
  
- 21342537
+ To use it, simply do X, Y, and Z.
  
  // placeholder for video
  
@@ -33,7 +33,7 @@
  
  ## License
  
- `1241677
+ MIT.
  
  Information about the specific license selected [shields.io](https://shields.io/).
  
@@ -47,11 +47,11 @@
  
  ## Contributing
  
- 123125676
+ To contribute, do the following...
  
  If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
  
  
  ## Tests
  
- 12156733
+ To test, complete the following...
