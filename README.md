@@ -1,6 +1,6 @@
 # Sample Title
 
- // badge placeholder ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+ // badge placeholder ![ReadMe-Generator](https://img.shields.io/github/languages/top/lernantino/badmath)
 
  
  ## Description
@@ -43,7 +43,9 @@
  The following documentation page was utilized to understand the various license types in GitHub: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
  
  The following tutorial was utilized as a starting place for a professional ReadMe: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
- 
+
+ The following GitHub page listed the shields for a number of license types: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+  
  
  ## Contributing
  
