@@ -18,7 +18,7 @@ const promptUser = () => {
     },
     {
       type: 'input',
-      name: 'Installaton',
+      name: 'Installation',
       message: 'Provide step by step installation instructions for this project:',
     },
     {
