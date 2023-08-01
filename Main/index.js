@@ -15,12 +15,12 @@ inquirer
     {
       type: 'input',
       name: 'Description',
-      message: 'Provide a description of your project:',
+      message: 'Provide a description of your project. For example, what was your motivation, why did you build this project, what problem does it solve, and what did you learn?',
     },
     {
       type: 'input',
       name: 'Installaton',
-      message: 'Provide installation instructions for this project:',
+      message: 'Provide step by step installation instructions for this project:',
     },
     {
         type: 'input',
