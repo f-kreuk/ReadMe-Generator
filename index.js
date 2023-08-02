@@ -563,7 +563,7 @@ See below screenshot of a completed ReadMe:
 
 See below a walkthrough video for utilizing the application:
 
-![WalkthroughVideo](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Videos/video1447037084.mp4)
+[![Walkthrough Video](https://img.youtube.com/vi/Y_gMXWuUTv0/0.jpg)](https://www.youtube.com/watch?v=Y_gMXWuUTv0)
 
  
  ## License
