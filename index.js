@@ -56,7 +56,7 @@ const promptUser = () => {
                 "Other"
         ]
     },
-    // below I have dependent checkbox questions based on the License selected
+    // below I have dependent checkbox questions based on the License selected - the first is for the various badges
     {
       type: 'checkbox',
       name: 'Badge',
@@ -492,7 +492,7 @@ const promptUser = () => {
       type: 'checkbox',
       name: 'Website',
       message: 'Confirm the website to learn more information for your license:',
-      choices: [''],
+      choices: ['the license listed in the GitHub portfolio'],
     
       when(answers) {
       return answers.License === "Other";
@@ -551,17 +551,20 @@ ${Badge}
  
  ${Usage}
  
- // placeholder for video
- 
- // placeholder for screenshots
- 
-     ![alt text](assets/images/screenshot.png)
+See below a screenshot of the prompts in action:
+
+      ![Screenshot of Prompts](./assets/images/screenshot.png)
+
+See below a screenshot of the completed ReadMe:
+
+      ![Screenshot of Prompts](./assets/images/screenshot2.png)
+
  
  ## License
  
- Licensed under ${License} (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at: 
+ Licensed under ${License} (the 'License'); you may not use this file except in compliance with the License. 
  
-     ${Website}
+ You may obtain a copy of the License by navigating to ${Website}.
  
  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
  
@@ -573,14 +576,14 @@ ${Badge}
  [The following tutorial was utilized as a starting place for a professional ReadMe.](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
  [The following GitHub site was utilized for the license badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+
+ [The following YouTube tutorial was utilized to learn dependent picklists, see 14:47](https://www.youtube.com/watch?v=CfS6eOBe8AY)
  
  
  ## Contributing
  
  ${Contributing}
- 
- If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
- 
+  
  
  ## Tests
  
