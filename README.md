@@ -1,5 +1,5 @@
 # ReadMe-Generator
-[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
  
  ## Description
  
@@ -27,16 +27,18 @@ See below a screenshot of the prompts in action:
 
 ![Screenshot](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot.PNG)
 
-See below a screenshot of the completed ReadMe:
+See below screenshot of a completed ReadMe:
 
 ![Screenshot2](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot2.PNG)
+![Screenshot3](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot3.PNG)
+![Screenshot4](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot4.PNG)
 
  
  ## License
  
- Licensed under Creative Commons license family (the 'License'); you may not use this file except in compliance with the License. 
+ Licensed under Apache license 2.0 (the 'License'); you may not use this file except in compliance with the License. 
  
- You may obtain a copy of the License by navigating to http://creativecommons.org/publicdomain/zero/1.0/.
+ You may obtain a copy of the License by navigating to https://opensource.org/licenses/Apache-2.0.
  
  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
  
@@ -64,6 +66,6 @@ See below a screenshot of the completed ReadMe:
  
  ## Questions
 
- To reach me with additional questions, please contact me at the following email address: fkreuk@eeeemmmail.com.
+ To reach me with additional questions, please contact me at the following email address: fkreuk@email.com.
 
  To visit my GitHub profile, simply navigate using the following link: [GitHub](https://github.com/f-kreuk).
