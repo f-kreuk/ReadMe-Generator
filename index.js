@@ -555,9 +555,11 @@ See below a screenshot of the prompts in action:
 
 ![Screenshot](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot.PNG)
 
-See below a screenshot of the completed ReadMe:
+See below screenshot of a completed ReadMe:
 
 ![Screenshot2](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot2.PNG)
+![Screenshot3](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot3.PNG)
+![Screenshot4](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot4.PNG)
 
  
  ## License
