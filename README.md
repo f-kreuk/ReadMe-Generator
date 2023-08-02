@@ -33,6 +33,10 @@ See below screenshot of a completed ReadMe:
 ![Screenshot3](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot3.PNG)
 ![Screenshot4](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot4.PNG)
 
+See below a walkthrough video for utilizing the application:
+
+![WalkthroughVideo](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Videos/video1447037084.mp4)
+
  
  ## License
  
