@@ -64,7 +64,7 @@ const promptUser = () => {
       choices: ['[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'],
     
       when(answers) {
-      return answers.License = "Apache license 2.0";
+      return answers.License === "Apache license 2.0";
       }
     },
     {
@@ -74,7 +74,7 @@ const promptUser = () => {
       choices: ['[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)'],
     
       when(answers) {
-      return answers.License = "Artistic license 2.0";
+      return answers.License === "Artistic license 2.0";
       }
     },
     {
@@ -84,7 +84,7 @@ const promptUser = () => {
       choices: ['[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'],
     
       when(answers) {
-      return answers.License = "Boost Software License 1.0";
+      return answers.License === "Boost Software License 1.0";
       }
     },
     {
@@ -94,7 +94,7 @@ const promptUser = () => {
       choices: ['[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)'],
     
       when(answers) {
-      return answers.License = "BSD 2-clause 'Simplified' license";
+      return answers.License === "BSD 2-clause 'Simplified' license";
       }
     },
     {
@@ -104,7 +104,7 @@ const promptUser = () => {
       choices: ['[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'],
     
       when(answers) {
-      return answers.License = "BSD 3-clause 'New' or 'Revised' license";
+      return answers.License === "BSD 3-clause 'New' or 'Revised' license";
       }
     },
     {
@@ -114,7 +114,7 @@ const promptUser = () => {
       choices: ['[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)'],
     
       when(answers) {
-      return answers.License = "Creative Commons license family";
+      return answers.License === "Creative Commons license family";
       }
     },
     {
@@ -124,7 +124,7 @@ const promptUser = () => {
       choices: ['[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)'],
     
       when(answers) {
-      return answers.License = "Creative Commons Zero v1.0 Universal";
+      return answers.License === "Creative Commons Zero v1.0 Universal";
       }
     },
     {
@@ -134,7 +134,7 @@ const promptUser = () => {
       choices: ['[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)'],
     
       when(answers) {
-      return answers.License = "Creative Commons Attribution 4.0";
+      return answers.License === "Creative Commons Attribution 4.0";
       }
     },
     {
@@ -144,7 +144,7 @@ const promptUser = () => {
       choices: ['[![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)'],
     
       when(answers) {
-      return answers.License = "Creative Commons Attribution Share Alike 4.0";
+      return answers.License === "Creative Commons Attribution Share Alike 4.0";
       }
     },
     {
@@ -154,7 +154,7 @@ const promptUser = () => {
       choices: ['[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)'],
     
       when(answers) {
-      return answers.License = "Do What The F*ck You Want To Public License";
+      return answers.License === "Do What The F*ck You Want To Public License";
       }
     },
     {
@@ -164,7 +164,7 @@ const promptUser = () => {
       choices: ['[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)'],
     
       when(answers) {
-      return answers.License = "Eclipse Public License 1.0";
+      return answers.License === "Eclipse Public License 1.0";
       }
     },
     {
@@ -174,7 +174,7 @@ const promptUser = () => {
       choices: ['[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)'],
     
       when(answers) {
-      return answers.License = "GNU Affero General Public License v3.0";
+      return answers.License === "GNU Affero General Public License v3.0";
       }
     },
     {
@@ -184,7 +184,7 @@ const promptUser = () => {
       choices: ['[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'],
     
       when(answers) {
-      return answers.License = "GNU General Public License v2.0";
+      return answers.License === "GNU General Public License v2.0";
       }
     },
     {
@@ -194,7 +194,7 @@ const promptUser = () => {
       choices: ['[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'],
     
       when(answers) {
-      return answers.License = "GNU General Public License v3.0";
+      return answers.License === "GNU General Public License v3.0";
       }
     },
     {
@@ -204,7 +204,7 @@ const promptUser = () => {
       choices: ['[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)'],
     
       when(answers) {
-      return answers.License = "GNU Lesser General Public License v3.0";
+      return answers.License === "GNU Lesser General Public License v3.0";
       }
     },
     {
@@ -214,7 +214,7 @@ const promptUser = () => {
       choices: ['[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'],
     
       when(answers) {
-      return answers.License = "ISC";
+      return answers.License === "ISC";
       }
     },
     {
@@ -224,7 +224,7 @@ const promptUser = () => {
       choices: ['[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'],
     
       when(answers) {
-      return answers.License = "MIT";
+      return answers.License === "MIT";
       }
     },
     {
@@ -234,7 +234,7 @@ const promptUser = () => {
       choices: ['[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'],
     
       when(answers) {
-      return answers.License = "Mozilla Public License 2.0";
+      return answers.License === "Mozilla Public License 2.0";
       }
     },
     {
@@ -244,7 +244,7 @@ const promptUser = () => {
       choices: ['[![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)](https://opensource.org/licenses/OFL-1.1)'],
     
       when(answers) {
-      return answers.License = "SIL Open Font License 1.1";
+      return answers.License === "SIL Open Font License 1.1";
       }
     },
     {
@@ -254,7 +254,7 @@ const promptUser = () => {
       choices: ['[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'],
     
       when(answers) {
-      return answers.License = "The Unlicense";
+      return answers.License === "The Unlicense";
       }
     },
     {
@@ -264,7 +264,7 @@ const promptUser = () => {
       choices: ['[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)'],
     
       when(answers) {
-      return answers.License = "zLib License";
+      return answers.License === "zLib License";
       }
     },
     {
@@ -274,7 +274,7 @@ const promptUser = () => {
       choices: [''],
     
       when(answers) {
-      return answers.License = "Other";
+      return answers.License === "Other";
       }
     },
     // Below are dependent checkbox questions for the url of the license's website
@@ -285,7 +285,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/Apache-2.0'],
     
       when(answers) {
-      return answers.License = "Apache license 2.0";
+      return answers.License === "Apache license 2.0";
       }
     },
     {
@@ -295,7 +295,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/Artistic-2.0'],
     
       when(answers) {
-      return answers.License = "Artistic license 2.0";
+      return answers.License === "Artistic license 2.0";
       }
     },
     {
@@ -305,7 +305,7 @@ const promptUser = () => {
       choices: ['https://www.boost.org/LICENSE_1_0.txt'],
     
       when(answers) {
-      return answers.License = "Boost Software License 1.0";
+      return answers.License === "Boost Software License 1.0";
       }
     },
     {
@@ -315,7 +315,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/BSD-2-Clause'],
     
       when(answers) {
-      return answers.License = "BSD 2-clause 'Simplified' license";
+      return answers.License === "BSD 2-clause 'Simplified' license";
       }
     },
     {
@@ -325,7 +325,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/BSD-3-Clause'],
     
       when(answers) {
-      return answers.License = "BSD 3-clause 'New' or 'Revised' license";
+      return answers.License === "BSD 3-clause 'New' or 'Revised' license";
       }
     },
     {
@@ -335,7 +335,7 @@ const promptUser = () => {
       choices: ['http://creativecommons.org/publicdomain/zero/1.0/'],
     
       when(answers) {
-      return answers.License = "Creative Commons license family";
+      return answers.License === "Creative Commons license family";
       }
     },
     {
@@ -345,7 +345,7 @@ const promptUser = () => {
       choices: ['http://creativecommons.org/publicdomain/zero/1.0/'],
     
       when(answers) {
-      return answers.License = "Creative Commons Zero v1.0 Universal";
+      return answers.License === "Creative Commons Zero v1.0 Universal";
       }
     },
     {
@@ -355,7 +355,7 @@ const promptUser = () => {
       choices: ['https://creativecommons.org/licenses/by/4.0/'],
     
       when(answers) {
-      return answers.License = "Creative Commons Attribution 4.0";
+      return answers.License === "Creative Commons Attribution 4.0";
       }
     },
     {
@@ -365,7 +365,7 @@ const promptUser = () => {
       choices: ['https://creativecommons.org/licenses/by-sa/4.0/'],
     
       when(answers) {
-      return answers.License = "Creative Commons Attribution Share Alike 4.0";
+      return answers.License === "Creative Commons Attribution Share Alike 4.0";
       }
     },
     {
@@ -375,7 +375,7 @@ const promptUser = () => {
       choices: ['http://www.wtfpl.net/about/'],
     
       when(answers) {
-      return answers.License = "Do What The F*ck You Want To Public License";
+      return answers.License === "Do What The F*ck You Want To Public License";
       }
     },
     {
@@ -385,7 +385,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/EPL-1.0'],
     
       when(answers) {
-      return answers.License = "Eclipse Public License 1.0";
+      return answers.License === "Eclipse Public License 1.0";
       }
     },
     {
@@ -395,7 +395,7 @@ const promptUser = () => {
       choices: ['https://www.gnu.org/licenses/agpl-3.0'],
     
       when(answers) {
-      return answers.License = "GNU Affero General Public License v3.0";
+      return answers.License === "GNU Affero General Public License v3.0";
       }
     },
     {
@@ -405,7 +405,7 @@ const promptUser = () => {
       choices: ['https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html'],
     
       when(answers) {
-      return answers.License = "GNU General Public License v2.0";
+      return answers.License === "GNU General Public License v2.0";
       }
     },
     {
@@ -415,7 +415,7 @@ const promptUser = () => {
       choices: ['https://www.gnu.org/licenses/gpl-3.0'],
     
       when(answers) {
-      return answers.License = "GNU General Public License v3.0";
+      return answers.License === "GNU General Public License v3.0";
       }
     },
     {
@@ -425,7 +425,7 @@ const promptUser = () => {
       choices: ['https://www.gnu.org/licenses/lgpl-3.0'],
     
       when(answers) {
-      return answers.License = "GNU Lesser General Public License v3.0";
+      return answers.License === "GNU Lesser General Public License v3.0";
       }
     },
     {
@@ -435,7 +435,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/ISC'],
     
       when(answers) {
-      return answers.License = "ISC";
+      return answers.License === "ISC";
       }
     },
     {
@@ -445,7 +445,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/MIT'],
     
       when(answers) {
-      return answers.License = "MIT";
+      return answers.License === "MIT";
       }
     },
     {
@@ -455,7 +455,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/MPL-2.0'],
     
       when(answers) {
-      return answers.License = "Mozilla Public License 2.0";
+      return answers.License === "Mozilla Public License 2.0";
       }
     },
     {
@@ -465,7 +465,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/OFL-1.1'],
     
       when(answers) {
-      return answers.License = "SIL Open Font License 1.1";
+      return answers.License === "SIL Open Font License 1.1";
       }
     },
     {
@@ -475,7 +475,7 @@ const promptUser = () => {
       choices: ['http://unlicense.org/'],
     
       when(answers) {
-      return answers.License = "The Unlicense";
+      return answers.License === "The Unlicense";
       }
     },
     {
@@ -485,7 +485,7 @@ const promptUser = () => {
       choices: ['https://opensource.org/licenses/Zlib'],
     
       when(answers) {
-      return answers.License = "zLib License";
+      return answers.License === "zLib License";
       }
     },
     {
@@ -495,7 +495,7 @@ const promptUser = () => {
       choices: [''],
     
       when(answers) {
-      return answers.License = "Other";
+      return answers.License === "Other";
       }
     },
     //Below are the final questions for the prompt
@@ -558,8 +558,6 @@ ${Badge}
      ![alt text](assets/images/screenshot.png)
  
  ## License
- 
-
  
  Licensed under ${License} (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at: 
  
