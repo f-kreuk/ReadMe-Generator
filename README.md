@@ -1,11 +1,11 @@
-# ReadMe-Generator
+# 123
 
- // badge placeholder ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+ BADGE-PLACEHOLDER
 
  
  ## Description
  
- The following application was created to quickly	create standardized ReadMe files.
+ 12313
  
  ## Table of Contents
  
@@ -19,11 +19,11 @@
  
  ## Installation
  
- The installation for this project requires Node.js, as well as inquirer 8.2.4.
+ 1
  
  ## Usage
  
- To utilize this project, install the necessary software listed in the Installation section, open a terminal, and execute 'node index.js'. Then answers the questions in the terminal.
+ 1
  
  // placeholder for video
  
@@ -33,9 +33,13 @@
  
  ## License
  
- MIT
+
  
- Information about the specific license selected [shields.io](https://shields.io/).
+ Licensed under Apache license 2.0 (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at: 
+ 
+    WEBSITE-PLACEHOLDER 
+ 
+ Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
  
  
  ## Credits
@@ -49,18 +53,18 @@
  
  ## Contributing
  
- There are no contribution guidelines to this public project.
+ 1
  
  If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
  
  
  ## Tests
  
- To test, simply clone the repository locally, install node and inquirer, and run the commands listed in the usage section above.
+ 1
  
  
  ## Questions
 
- To reach me with additional questions, please contact me at the following email address: fkreuk@email.com.
+ To reach me with additional questions, please contact me at the following email address: 1.
 
- To visit my GitHub profile, simply navigate using the following link: [GitHub](https://https://github.com/f-kreuk).
+ To visit my GitHub profile, simply navigate using the following link: [GitHub](https://github.com/1).

@@ -3,6 +3,25 @@
 const inquirer = require('inquirer');
 const { writeFile } = require('fs').promises;
 
+// let LicenseObject = License.find(o => o.license === License);
+// console.log(LicenseObject);
+
+//function getLicenseWebsite (License) {
+ // licenses.license.find(License) =>
+  //return website;
+  
+  //take the license that is passed in and search array of objects for object's index, then you return license[0].badge and license[0].website
+//}
+
+
+// function getLicenseBadge (License) {
+//   licenses.license.find(License) =>
+//   return badge;
+
+//   //take the license that is passed in and search array of objects for object's index, then you return license[0].badge and license[0].website
+// }
+
+
 // TODO: Create an array of questions for user input
 const promptUser = () => {
   return inquirer.prompt([
@@ -194,11 +213,13 @@ const licenses = [
   },
 ]
 
+// ${getLicenseWebsite(License)}
 
- const generateReadMe = ({ Title, Description, Installation, License, Usage, Contributing, Tests, GitHub, Email }) =>
+ const generateReadMe = ({ Title, Description, Installation, License, Usage, Contributing, Tests, GitHub, Email }) => 
+
  `# ${Title}
 
- BADGE-PLACEHOLDER
+ BADGE PLACEHOLDER
 
  
  ## Description
@@ -235,7 +256,7 @@ const licenses = [
  
  Licensed under ${License} (the 'License'); you may not use this file except in compliance with the License. You may obtain a copy of the License at: 
  
-    WEBSITE-PLACEHOLDER 
+   WEBSITE PLACEHOLDER
  
  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
  
@@ -266,7 +287,6 @@ const licenses = [
  To reach me with additional questions, please contact me at the following email address: ${Email}.
 
  To visit my GitHub profile, simply navigate using the following link: [GitHub](https://github.com/${GitHub}).`;
-
 
 // TODO: Create a function to write README file
 // TODO: Create a function to initialize app
