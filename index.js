@@ -553,11 +553,11 @@ ${Badge}
  
 See below a screenshot of the prompts in action:
 
-      ![Screenshot of Prompts](./assets/images/screenshot.png)
+![Screenshot](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot.PNG)
 
 See below a screenshot of the completed ReadMe:
 
-      ![Screenshot of Prompts](./assets/images/screenshot2.png)
+![Screenshot2](https://github.com/f-kreuk/ReadMe-Generator/blob/main/Main/Assets/Images/screenshot2.PNG)
 
  
  ## License
