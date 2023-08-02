@@ -21,7 +21,7 @@
  
  ## Usage
  
- After completing the installation process, you are ready to utilize the application. To utilize the application, simply open your index.js file in an integrated terminal and run the command: “node index.js”. Then answer the questions prompted. When you have answered all the questions, you will receive a success prompt, and a README.md file will be generated based on the input values. Note: For purposes of the UCONN coding bootcamp, a credits section is included with links to tutorials and videos utilized in producing this project. In addition, two screenshots and a video are hardcoded into the Description section. These links would need to be removed from the index.js file if utilized by someone else.
+ After completing the installation process, you are ready to utilize the application. To utilize the application, simply open your index.js file in an integrated terminal and run the command: “node index.js”. Then answer the questions prompted. When you have answered all the questions, you will receive a success prompt, and a README.md file will be generated based on the input values. Note: For purposes of the UCONN coding bootcamp, a credits section is included with links to tutorials and videos utilized in producing this project. In addition, four screenshots and a video are hardcoded into the Usage section. These links would need to be removed from the index.js file if utilized by someone else.
  
 See below a screenshot of the prompts in action:
 
